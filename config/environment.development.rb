@@ -1,4 +1,6 @@
 require 'rubygems'
 require 'bundler'
 
-Bundler.setup(:default, :development)
+Bundler.require(:default, :development)
+
+require_relative '../api.rb'
