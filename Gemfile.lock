@@ -126,6 +126,7 @@ DEPENDENCIES
   guard
   pg
   rack
+  rack-cache
   rake
   redis-rack-cache
   rspec

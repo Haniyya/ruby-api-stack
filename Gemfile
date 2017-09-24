@@ -1,5 +1,6 @@
 # frozen_string_literal: true
-source "https://rubygems.org"
+
+source 'https://rubygems.org'
 
 ruby '2.4.1'
 
@@ -15,6 +16,7 @@ gem 'rack'
 
 # HTTP Caching
 gem 'dalli'
+gem 'rack-cache', require: 'rack/cache'
 gem 'redis-rack-cache'
 
 # Default db is postgres
@@ -28,8 +30,8 @@ gem 'pg'
 gem 'sequel'
 
 group :development do
-  gem 'rubocop', require: false
   gem 'guard', require: false
+  gem 'rubocop', require: false
 end
 
 group :test do
