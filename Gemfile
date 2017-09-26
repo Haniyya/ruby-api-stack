@@ -10,6 +10,10 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem 'dotenv'
 gem 'rake'
 
+# Dependency management
+gem 'dry-container'
+gem 'dry-system'
+
 # HTTP handling
 gem 'grape'
 gem 'rack'
