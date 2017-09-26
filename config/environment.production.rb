@@ -3,4 +3,5 @@ require 'bundler'
 
 Bundler.require(:default)
 
+require_relative '../system/container.rb'
 require_relative '../api.rb'
