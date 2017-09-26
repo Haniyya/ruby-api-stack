@@ -1,3 +1,4 @@
+# Main Entry point for application
 class MainApi < Grape::API
   format :json
   prefix :api
