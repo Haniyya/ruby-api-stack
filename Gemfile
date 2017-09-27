@@ -36,6 +36,7 @@ gem 'rom-sql'
 
 group :development do
   gem 'guard', require: false
+  gem 'rerun', require: false
   gem 'rubocop', require: false
 end
 
