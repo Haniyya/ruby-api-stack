@@ -2,6 +2,7 @@
 
 require 'dry/system/container'
 require 'bundler/setup'
+require 'dotenv/load'
 
 # IoD Container for all kinds of stuff
 class App < Dry::System::Container

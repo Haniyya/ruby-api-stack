@@ -30,8 +30,9 @@ gem 'pg'
 # gem 'mysql2'
 # gem 'sqlite3'
 
-# Low level db access with sequel
-gem 'sequel'
+# Persistence
+gem 'rom'
+gem 'rom-sql'
 
 group :development do
   gem 'guard', require: false
