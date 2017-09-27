@@ -8,7 +8,7 @@ require 'dotenv/load'
 class App < Dry::System::Container
   configure do |config|
     config.root = Pathname(__FILE__).join('../').realpath.dirname.freeze
-    config.auto_register = %w[lib app/concepts]
+    config.auto_register = %w[lib app/concepts lib/persistence]
   end
 
   load_paths!('lib', 'app/concepts', 'system')
